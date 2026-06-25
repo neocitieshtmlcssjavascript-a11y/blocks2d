@@ -1,2 +1,1 @@
-# Для 32-битной DLL (если проект старый)
-g++ -m32 main.cpp -o blocks2d_cpp.exe
+rundll32.exe Blocks2D.dll,CreateBlock2D

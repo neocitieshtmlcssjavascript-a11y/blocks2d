@@ -1,0 +1,1 @@
+$env:GOOS="windows"; $env:GOARCH="386"; go build -ldflags="-s -w" -o blocks2d.exe main.go
